@@ -1,0 +1,14 @@
+{
+  "name":"정휘빈","english":"Jeong Hwibeen",
+  "intro":"보안 현장에서 발견한 문제를 데이터로 읽고, AI 모델과 백엔드 서비스로 해결하는 개발자 정휘빈입니다.",
+  "about":"기존 시스템을 배울 때는 로그 한 건이 지나가는 길부터 따라갑니다. 소스코드와 설정을 대조하고, 입력이 어떤 변환을 거쳐 저장되는지 확인합니다. 이렇게 이해한 원리를 다른 장비와 개발 환경에서 다시 적용하며 제 지식으로 만듭니다.",
+  "experience":[
+    {"status":"현재","company":"이글루코퍼레이션","role":"보안 솔루션 엔지니어","body":"폐쇄망 SIEM·SOAR를 구축·운영하며 보안장비 로그를 정규화하고 탐지 정책과 플레이북을 구성합니다. Kafka·Kubernetes·ClickHouse의 처리 흐름을 따라 유실과 지연을 분석하고, Rocky Linux에서 Python으로 자산 식별·상태 점검 및 이메일·SMS 알림 도구를 개발했습니다.","link":"fortimanager"},
+    {"status":"이전","company":"주식회사 트라이씨웍스","role":"산업 시계열 분석 · 엣지 AI","body":"화력발전소 연소 최적화 프로젝트에서 산업 시계열 데이터를 전처리하고 LSTM 모델과 운전 변수를 분석했습니다. 기존 AI 알고리즘의 소스코드와 처리 흐름을 살펴보고 NVIDIA Jetson Xavier 기반 엣지 환경에 적용했습니다."},
+    {"status":"이전","company":"라이프트리솔루션","role":"기기 운영 · 데이터베이스 관리","body":"작업자 신체 상태 모니터링 프로젝트에서 스마트밴드를 운영하고 SQL Server 데이터를 조회·관리했습니다. 기기에서 발생한 측정값이 서비스에 도달하는 과정을 살펴보며 데이터 처리 구조를 익혔습니다."}
+  ],
+  "research":[["PubMed Crawling","데이터 수집·정제","키워드 검색으로 모은 논문에서 제목·초록·저자·발행일·DOI를 추출했습니다. 중복과 결측, 형식 불일치를 확인하고 CSV·DB에서 분석할 수 있는 메타데이터 구조로 정리했습니다."],["로컬 LLM 실행","경량화 검토·추론 실험","LoRA의 학습 방식과 GGUF 모델 포맷을 검토하고 llama.cpp 로컬 추론을 실험했습니다. 제한된 GPU·메모리에서 외부 API 의존도를 줄일 수 있는 실행 조건을 살폈습니다."],["문서 기반 RAG","검색·생성 구조 실험","문서를 임베딩한 뒤 벡터 검색으로 관련 내용을 찾고, 검색 결과를 LLM의 응답 문맥으로 전달하는 흐름을 실험했습니다."]],
+  "education":[["2024.08.12","Building Transformer-Based Natural Language Processing Applications","NVIDIA Deep Learning Institute"],["2024.08.10","Fundamentals of Deep Learning","NVIDIA Deep Learning Institute"]],
+  "certifications":[["2026.06.19","SQL 개발자 (SQLD)","자격 취득"],["2024.11.29","데이터분석 준전문가 (ADsP)","자격 취득"],["","리눅스마스터 2급","자격 취득"]],
+  "contacts":{"github":"https://github.com/JeongHwiBeen","email":"","portfolio":""}
+}
